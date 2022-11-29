@@ -2,7 +2,9 @@
 
 # Build & Run using `docker-compose`
 
-Set your configuration in [.env](.env).
+Set your configuration in the [.env](.env) file:
+- `LOCAL_MUSIC_DIR`: path to the directory that contains all your audio files
+- `LOCAL_PORT`: port to expose this web server. Use `127.0.0.1:<PORT>` for local-only.
 
 Example:
 ```
